@@ -23,6 +23,12 @@ class KotlinClass{
         println("Hello, $name. You are $age years old.")
     }
 
+
+    // Kotlin generic function
+    fun <T> printList(list: List<T>) {
+        list.forEach { println(it) }
+    }
+
 }
 
 // Kotlin Code
